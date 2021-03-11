@@ -3,11 +3,15 @@ import './App.css';
 import Greet from './Component/Greet'
 import Welcome from './Component/Welcome'
 import Hello from './Component/Hello'
+import Message from './Component/Message'
+import Counter from './Component/Counter'
 
 function App() {
   return (
     <div className="App">
-      <Greet name='One'> 
+      <Counter/>
+      {/* <Message/> */}
+      {/* <Greet name='One'> 
         <p>This is One's Children</p>
       </Greet>
       <Greet name='Two'>
@@ -24,7 +28,7 @@ function App() {
       </Welcome>
       <Welcome name='Three'>
         <p>This is Class Component Three's Children</p>
-      </Welcome>
+      </Welcome> */}
       {/* <Hello/> */}
     </div>
   );
