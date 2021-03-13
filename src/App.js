@@ -7,12 +7,16 @@ import Message from './Component/Message'
 import Counter from './Component/Counter'
 import FunctionClick from './Component/FunctionClick'
 import ClassClick from './Component/ClassClick'
+import ParentComponent from './Component/ParentComponent';
+
+
 
 function App() {
   return (
     <div className="App">
-      <ClassClick/>
-      <FunctionClick/>
+      <ParentComponent/>
+      {/* <ClassClick/>
+      <FunctionClick/> */}
       {/* <Counter/> */}
       {/* <Message/> */}
       {/* <Greet name='One'> 
